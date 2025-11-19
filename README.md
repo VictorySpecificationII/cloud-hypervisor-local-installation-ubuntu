@@ -8,9 +8,9 @@
 That's how my directory tree looks like - if you run into any trouble, this is what mine looks like.
 
 ```
-antreas@sanctuary:~/Desktop/koyeb-stack$ pwd
-/home/antreas/Desktop/koyeb-stack
-antreas@sanctuary:~/Desktop/koyeb-stack$ tree . -L 1
+antreas@sanctuary:~/Desktop/cloud-hypervisor$ pwd
+/home/antreas/Desktop/cloud-hypervisor
+antreas@sanctuary:~/Desktop/cloud-hypervisor$ tree . -L 1
 .
 ├── cloud-hypervisor
 ├── noble-server-cloudimg-amd64.img
@@ -26,7 +26,7 @@ antreas@sanctuary:~/Desktop/koyeb-stack$ tree . -L 1
 Navigate to the cloud hypervisor folder and create a cloud-init
 
 ```
-cd ~/Desktop/koyeb-stack/cloud-hypervisor
+cd ~/Desktop/cloud-hypervisor/cloud-hypervisor
 ./scripts/create-cloud-init.sh
 cd ..
 ```
@@ -86,7 +86,7 @@ cloud-hypervisor \
 
 # First time installation
 
-Create a directory in your Desktop, name it `koyeb-stack` and cd into it - all the steps take part there
+Create a directory in your Desktop, name it `cloud-hypervisor` and cd into it - all the steps take part there
 
 ## Virtualization support
 
