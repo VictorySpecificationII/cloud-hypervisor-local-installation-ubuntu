@@ -5,6 +5,8 @@
 
 ## Reference
 
+For this, the VM user/login is: cloud/cloud123
+
 That's how my directory tree looks like - if you run into any trouble, this is what mine looks like.
 
 ```
